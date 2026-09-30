@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: "Manrope", sans-serif ;
   font-weight: 500;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -180,7 +181,9 @@ SOCIAL
 */
 
 #about,
-#social {
+#social,
+#contact,
+#footer {
   padding: 24px 0;
   width: 100%;
   max-width: 1200px;
@@ -241,3 +244,66 @@ SOCIAL
   margin-bottom: 24px;
 }
 
+/*
+
+CONTACT
+
+*/
+
+.section__card--contact {
+  border: 1.5px dashed #c231c2;
+  width: 96%;
+  border-radius: 16px;
+}
+
+form {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 24px;
+  gap: 12px;
+}
+
+input, textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+  width: 500px;
+  border-radius: 6px;
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer {
+  background-color: #badcee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1.5px dashed #cbd5e1;
+  padding: 12px 20px;
+  border-radius: 20% 20% 0 0;
+}
+
+.footer_logo {
+  margin-bottom: 8px;
+}
+
+.footer__links {
+  margin-bottom: 16px;
+}
+
+.footer__link {
+  padding: 0 16px;
+}
+
+/*
+
+SMARTPHONES, TABLETS, LARGE SMARTPHONES
+
+*/
